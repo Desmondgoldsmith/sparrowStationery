@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\clientController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +21,4 @@ Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('home');
+ROute::get('/shop',[clientController::class,'shop' ]);

@@ -9,4 +9,9 @@ class clientController extends Controller
    public function home(){
        return view('clients.index');
    }
+
+   public function shop(){
+
+    return view('clients.shop');
+   }
 }

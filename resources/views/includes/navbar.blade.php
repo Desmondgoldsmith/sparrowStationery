@@ -41,7 +41,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.html" class="nav-item nav-link active" style="color:#00A4B4">Home</a>
-                            <a href="shop.html" class="nav-item nav-link" >Shop</a>
+                            <a href="{{URL('/shop')}}" class="nav-item nav-link" >Shop</a>
                             <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
