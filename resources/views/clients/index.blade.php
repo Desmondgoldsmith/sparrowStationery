@@ -1,3 +1,6 @@
+@section('title')
+    Home
+@endsection
 @extends('includes.app')
 <!-- Featured Start -->
 @section('content')

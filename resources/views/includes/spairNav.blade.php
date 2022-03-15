@@ -40,7 +40,7 @@
                     <div class="navbar-nav mr-auto py-0">
                         <a href="{{URL('/')}}" class="nav-item nav-link">Home</a>
                         <a href="{{URL('/shop')}}" class="nav-item nav-link {{Request::is('shop') ? 'active': ''}}">Shop</a>
-                        <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+                        <a href="{{URL('/details')}}" class="nav-item nav-link {{Request::is('details')?'active':''}}">Shop Detail</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">

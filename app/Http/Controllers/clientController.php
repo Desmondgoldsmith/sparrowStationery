@@ -14,4 +14,9 @@ class clientController extends Controller
 
     return view('clients.shop');
    }
+   
+   public function details(){
+
+    return view('clients.details');
+   }
 }

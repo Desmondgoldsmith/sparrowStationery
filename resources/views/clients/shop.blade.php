@@ -1,3 +1,6 @@
+@section('title')
+    Shop
+@endsection
 @extends('includes.spairpages')
 
 @section('spairSection')
