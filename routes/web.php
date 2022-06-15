@@ -32,6 +32,7 @@ Auth::routes();
 Route::post('/categoryAdd',[categoryController::class,'createCategory']);
 
 Route::get('/category-create',[categoryController::class,'create']);
+Route::get('/view-category',[categoryController::class,'displayCategories']);
 
 Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('home');
 Route::get('/shop',[clientController::class,'shop' ]);

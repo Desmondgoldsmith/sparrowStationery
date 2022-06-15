@@ -10,21 +10,6 @@ use Illuminate\Support\Facades\Session;
 
 class categoryController extends Controller
 {
-    // public function Category(Request $request){
-    //     dd($request);
-    //     $this->validate($request,[
-    //         'category'=>'required|unique:categories'
-    //     ]);
-
-    //     $category = new Category();
-    //     $category->category = $request->input('category');
-    //     $category->save();
-
-    //     return back()->with('status','Category saved successfully');
-
-    // }
-
-
     public function createCategory(Request $request){
         $this->validate($request,
         [
@@ -37,13 +22,26 @@ class categoryController extends Controller
     $category->categoryName = $request->input('categoryName');
     $category->save();
     return redirect('/category-create')->with('status','Category Saved Successfully');
-    // return dd($category);
-
 }
 
 public function create()
 {
     return view('admin.addCategory');
 }
+
+// // view category page
+// public function view(){
+//     return view("admin.viewCategory");
+// }
+
+// display categories on the page
+
+public function displayCategories()
+{
+    $categories = Category::all();
+    return view('admin.viewCategory')->with('categories',$categories);
+}
+
+
 
 }

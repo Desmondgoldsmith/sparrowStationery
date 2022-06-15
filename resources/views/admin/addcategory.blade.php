@@ -1,3 +1,7 @@
+@section('title')
+    Add Category
+@endsection
+
 @extends('admin_layout.app')
 
 @section('content')

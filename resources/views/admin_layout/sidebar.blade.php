@@ -78,8 +78,8 @@
            </a>
            <div class="collapse" id="ui-basic">
              <ul class="nav flex-column sub-menu">
-               <li class="nav-item"> <a class="nav-link" href="#">Add Category</a></li>
-               <li class="nav-item"> <a class="nav-link" href="#">View Category</a></li>
+               <li class="nav-item"> <a class="nav-link" href="{{url('category-create')}}  {{Request::is('category-create') ? 'active' : ''}}">Add Category</a></li>
+               <li class="nav-item"> <a class="nav-link" href="{{url('view-category')}}  {{Request::is('view-category' ? 'active' : '')}}">View Category</a></li>
              </ul>
            </div>
          </li>
