@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://localhost/'),
 
     'asset_url' => env('ASSET_URL'),
 
@@ -124,6 +124,7 @@ return [
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
+    
 
     /*
     |--------------------------------------------------------------------------
@@ -163,6 +164,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -192,6 +194,11 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // ...
+        'Form' => Collective\Html\FormFacde::class,
+    'Html' => Collective\Html\HtmlFacde::class,
+        
     ])->toArray(),
+    'Form' => Collective\Html\FormFacde::class,
+    'Html' => Collective\Html\HtmlFacde::class,
 
 ];

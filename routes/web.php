@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\categoryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\clientController;
+use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +23,17 @@ use App\Http\Controllers\clientController;
 
 Auth::routes();
 
+
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::post('/category',[categoryController::class,'Category']);
+
+
+
+Route::post('/categoryAdd',[categoryController::class,'createCategory']);
+
+Route::get('/category-create',[categoryController::class,'create']);
+
 Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('home');
 Route::get('/shop',[clientController::class,'shop' ]);
 Route::get('/details',[clientController::class,'details' ]);
+Route::get('/admin',[AdminController::class,'dashboard']);

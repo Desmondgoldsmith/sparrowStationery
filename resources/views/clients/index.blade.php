@@ -44,7 +44,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="frontend/img/cat-1.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Men's dresses</h5>
+                    <h5 class="font-weight-semi-bold m-0">Paper & Printing Products</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -53,7 +53,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="frontend/img/cat-2.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Women's dresses</h5>
+                    <h5 class="font-weight-semi-bold m-0">Office Funiture And Decor Products</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -62,7 +62,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="frontend/img/cat-3.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Baby's dresses</h5>
+                    <h5 class="font-weight-semi-bold m-0">Office Equipment Products</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -71,7 +71,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="frontend/img/cat-4.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Accerssories</h5>
+                    <h5 class="font-weight-semi-bold m-0">Cleaning & Janitorial Products</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -80,7 +80,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="frontend/img/cat-5.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Bags</h5>
+                    <h5 class="font-weight-semi-bold m-0">Desktop & Deskdrawer Products</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -89,7 +89,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="frontend/img/cat-6.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Shoes</h5>
+                    <h5 class="font-weight-semi-bold m-0">Office & Kitchen Products</h5>
                 </div>
             </div>
         </div>
@@ -97,32 +97,7 @@
     <!-- Categories End -->
 
 
-    <!-- Offer Start -->
-    <div class="container-fluid offer pt-5">
-        <div class="row px-xl-5">
-            <div class="col-md-6 pb-4">
-                <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
-                    <img src="frontend/img/offer-1.png" alt="">
-                    <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
-                        <h1 class="mb-4 font-weight-semi-bold">Spring Collection</h1>
-                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 pb-4">
-                <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
-                    <img src="frontend/img/offer-2.png" alt="">
-                    <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
-                        <h1 class="mb-4 font-weight-semi-bold">Winter Collection</h1>
-                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Offer End -->
+    
 
 
     <!-- Products Start -->
@@ -278,7 +253,7 @@
             <div class="col-md-6 col-12 py-5">
                 <div class="text-center mb-2 pb-2">
                     <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Stay Updated</span></h2>
-                    <p>Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore labore.</p>
+                    <p>Provide your email to suscribe to our services</p>
                 </div>
                 <form action="">
                     <div class="input-group">
@@ -441,41 +416,7 @@
     <!-- Products End -->
 
 
-    <!-- Vendor Start -->
-    <div class="container-fluid py-5">
-        <div class="row px-xl-5">
-            <div class="col">
-                <div class="owl-carousel vendor-carousel">
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-1.jpg" alt="">
-                    </div>
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-2.jpg" alt="">
-                    </div>
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-3.jpg" alt="">
-                    </div>
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-4.jpg" alt="">
-                    </div>
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-5.jpg" alt="">
-                    </div>
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-6.jpg" alt="">
-                    </div>
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-7.jpg" alt="">
-                    </div>
-                    <div class="vendor-item border p-4">
-                        <img src="frontend/img/vendor-8.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Vendor End -->
-
+    
 @include('includes.footer')
 
         <!-- Back to Top -->
