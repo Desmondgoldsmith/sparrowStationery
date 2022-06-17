@@ -46,6 +46,9 @@
                     @endforeach
                     
                   </tbody>
+                  <tfoot>
+                    
+                  </tfoot>
                 </table>
               </div>
             </div>
@@ -54,4 +57,7 @@
       </div>
       
 </div>
+
+{{-- {{$products->links()}} --}}
+{{ $products->onEachSide(5)->links() }}
 @endsection
