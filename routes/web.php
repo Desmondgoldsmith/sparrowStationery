@@ -4,6 +4,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\categoryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\clientController;
+use App\Http\Controllers\productController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -31,7 +32,6 @@ Auth::routes();
 
 Route::post('/categoryAdd',[categoryController::class,'createCategory']);//processes the form
 Route::post('/categoryUpdate',[categoryController::class,'updateCategory']);//processes the update category form
-
 Route::get('/category-create',[categoryController::class,'create']);//display the create category page
 Route::get('/updateCategory-view/{id}',[categoryController::class,'view_UpdateCategory']);//display the update category page
 Route::get('/view-category',[categoryController::class,'displayCategories']); //display a list of all categories
@@ -41,4 +41,7 @@ Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('h
 Route::get('/shop',[clientController::class,'shop' ]);
 Route::get('/details',[clientController::class,'details' ]);
 Route::get('/admin',[AdminController::class,'dashboard']);
-Route::get('/display',[categoryController::class,'display']);
+
+Route::get('/view-addProduct',[productController::class,'create']);//display the addProduct page
+Route::post('/add_product',[productController::class,'store']);
+Route::get('/view-products',[productController::class,'index']);//display the all products page

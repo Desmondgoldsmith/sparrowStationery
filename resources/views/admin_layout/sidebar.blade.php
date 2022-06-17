@@ -92,13 +92,20 @@
            </a>
          </li>
          <li class="nav-item menu-items">
-           <a class="nav-link" href="pages/tables/basic-table.html">
-             <span class="menu-icon">
-               <i class="mdi mdi-table-large"></i>
-             </span>
-             <span class="menu-title">Products</span>
-           </a>
-         </li>
+          <a class="nav-link" data-bs-toggle="collapse" href="#product" aria-expanded="false" aria-controls="product">
+            <span class="menu-icon">
+              <i class="mdi mdi-laptop"></i>
+            </span>
+            <span class="menu-title">Products</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="product">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="{{url('view-addProduct')}}  {{Request::is('view-addProduct') ? 'active' : ''}}">Add Product</a></li>
+              <li class="nav-item"> <a class="nav-link" href="{{url('view-products')}}  {{Request::is('view-products' ? 'active' : '')}}">View product</a></li>
+            </ul>
+          </div>
+        </li>
          <li class="nav-item menu-items">
            <a class="nav-link" href="pages/charts/chartjs.html">
              <span class="menu-icon">

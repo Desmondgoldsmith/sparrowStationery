@@ -42,7 +42,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="{{asset('" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="frontend/img/cat-1.jpg" alt="">
+                        <img class="img-fluid" src="frontend/img/cat-1.jpg')}}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Paper & Printing Products</h5>
                 </div>
@@ -51,7 +51,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="{{asset('" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="frontend/img/cat-2.jpg" alt="">
+                        <img class="img-fluid" src="frontend/img/cat-2.jpg')}}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Office Funiture And Decor Products</h5>
                 </div>
@@ -60,7 +60,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="{{asset('" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="frontend/img/cat-3.jpg" alt="">
+                        <img class="img-fluid" src="frontend/img/cat-3.jpg')}}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Office Equipment Products</h5>
                 </div>
@@ -69,7 +69,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="{{asset('" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="frontend/img/cat-4.jpg" alt="">
+                        <img class="img-fluid" src="frontend/img/cat-4.jpg')}}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Cleaning & Janitorial Products</h5>
                 </div>
@@ -78,7 +78,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="{{asset('" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="frontend/img/cat-5.jpg" alt="">
+                        <img class="img-fluid" src="frontend/img/cat-5.jpg')}}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Desktop & Deskdrawer Products</h5>
                 </div>
@@ -87,7 +87,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="{{asset('" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="frontend/img/cat-6.jpg" alt="">
+                        <img class="img-fluid" src="frontend/img/cat-6.jpg')}}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Office & Kitchen Products</h5>
                 </div>
@@ -109,7 +109,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-1.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -126,7 +126,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-2.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -143,7 +143,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-3.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -160,7 +160,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-4.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -177,7 +177,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-5.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-5.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -194,7 +194,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-6.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-6.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -211,7 +211,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-7.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-7.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -228,7 +228,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-8.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-8.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -278,7 +278,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-1.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -295,7 +295,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-2.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -312,7 +312,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-3.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -329,7 +329,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-4.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -346,7 +346,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-5.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-5.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -363,7 +363,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-6.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-6.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -380,7 +380,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-7.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-7.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -397,7 +397,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="frontend/img/product-8.jpg" alt="">
+                        <img class="img-fluid w-100" src="frontend/img/product-8.jpg')}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
