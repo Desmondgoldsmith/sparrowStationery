@@ -29,12 +29,16 @@ Auth::routes();
 
 
 
-Route::post('/categoryAdd',[categoryController::class,'createCategory']);
+Route::post('/categoryAdd',[categoryController::class,'createCategory']);//processes the form
+Route::post('/categoryUpdate',[categoryController::class,'updateCategory']);//processes the update category form
 
-Route::get('/category-create',[categoryController::class,'create']);
-Route::get('/view-category',[categoryController::class,'displayCategories']);
+Route::get('/category-create',[categoryController::class,'create']);//display the create category page
+Route::get('/updateCategory-view/{id}',[categoryController::class,'view_UpdateCategory']);//display the update category page
+Route::get('/view-category',[categoryController::class,'displayCategories']); //display a list of all categories
+Route::get('/delete-category/{id}',[categoryController::class,'deleteCategory']); //delete a category
 
 Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('home');
 Route::get('/shop',[clientController::class,'shop' ]);
 Route::get('/details',[clientController::class,'details' ]);
 Route::get('/admin',[AdminController::class,'dashboard']);
+Route::get('/display',[categoryController::class,'display']);

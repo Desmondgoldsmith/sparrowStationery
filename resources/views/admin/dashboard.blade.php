@@ -1,4 +1,4 @@
-@extends('admin_layout.app')
+@extends('admin_layout.content')
 @section('content')
 <div class="main-panel">
       <div class="row">
@@ -306,7 +306,7 @@
                         </div>
                       </td>
                       <td>
-                        <img src="backend/images/faces/face1.jpg" alt="image" />
+                        <img src="{{asset('backend/images/faces/face1.jpg" alt="image" />
                         <span class="ps-2">Henry Klein</span>
                       </td>
                       <td> 02312 </td>
@@ -327,7 +327,7 @@
                         </div>
                       </td>
                       <td>
-                        <img src="backend/images/faces/face2.jpg" alt="image" />
+                        <img src="{{asset('backend/images/faces/face2.jpg" alt="image" />
                         <span class="ps-2">Estella Bryan</span>
                       </td>
                       <td> 02312 </td>
@@ -348,7 +348,7 @@
                         </div>
                       </td>
                       <td>
-                        <img src="backend/images/faces/face5.jpg" alt="image" />
+                        <img src="{{asset('backend/images/faces/face5.jpg" alt="image" />
                         <span class="ps-2">Lucy Abbott</span>
                       </td>
                       <td> 02312 </td>
@@ -369,7 +369,7 @@
                         </div>
                       </td>
                       <td>
-                        <img src="backend/images/faces/face3.jpg" alt="image" />
+                        <img src="{{asset('backend/images/faces/face3.jpg" alt="image" />
                         <span class="ps-2">Peter Gill</span>
                       </td>
                       <td> 02312 </td>
@@ -390,7 +390,7 @@
                         </div>
                       </td>
                       <td>
-                        <img src="backend/images/faces/face4.jpg" alt="image" />
+                        <img src="{{asset('backend/images/faces/face4.jpg" alt="image" />
                         <span class="ps-2">Sallie Reyes</span>
                       </td>
                       <td> 02312 </td>
@@ -420,7 +420,7 @@
               <div class="preview-list">
                 <div class="preview-item border-bottom">
                   <div class="preview-thumbnail">
-                    <img src="backend/images/faces/face6.jpg" alt="image" class="rounded-circle" />
+                    <img src="{{asset('backend/images/faces/face6.jpg" alt="image" class="rounded-circle" />
                   </div>
                   <div class="preview-item-content d-flex flex-grow">
                     <div class="flex-grow">
@@ -434,7 +434,7 @@
                 </div>
                 <div class="preview-item border-bottom">
                   <div class="preview-thumbnail">
-                    <img src="backend/images/faces/face8.jpg" alt="image" class="rounded-circle" />
+                    <img src="{{asset('backend/images/faces/face8.jpg" alt="image" class="rounded-circle" />
                   </div>
                   <div class="preview-item-content d-flex flex-grow">
                     <div class="flex-grow">
@@ -448,7 +448,7 @@
                 </div>
                 <div class="preview-item border-bottom">
                   <div class="preview-thumbnail">
-                    <img src="backend/images/faces/face9.jpg" alt="image" class="rounded-circle" />
+                    <img src="{{asset('backend/images/faces/face9.jpg" alt="image" class="rounded-circle" />
                   </div>
                   <div class="preview-item-content d-flex flex-grow">
                     <div class="flex-grow">
@@ -462,7 +462,7 @@
                 </div>
                 <div class="preview-item border-bottom">
                   <div class="preview-thumbnail">
-                    <img src="backend/images/faces/face11.jpg" alt="image" class="rounded-circle" />
+                    <img src="{{asset('backend/images/faces/face11.jpg" alt="image" class="rounded-circle" />
                   </div>
                   <div class="preview-item-content d-flex flex-grow">
                     <div class="flex-grow">
@@ -484,20 +484,20 @@
               <h4 class="card-title">Portfolio Slide</h4>
               <div class="owl-carousel owl-theme full-width owl-carousel-dash portfolio-carousel" id="owl-carousel-basic">
                 <div class="item">
-                  <img src="backend/images/dashboard/Rectangle.jpg" alt="">
+                  <img src="{{asset('backend/images/dashboard/Rectangle.jpg" alt="">
                 </div>
                 <div class="item">
-                  <img src="backend/images/dashboard/Img_5.jpg" alt="">
+                  <img src="{{asset('backend/images/dashboard/Img_5.jpg" alt="">
                 </div>
                 <div class="item">
-                  <img src="backend/images/dashboard/img_6.jpg" alt="">
+                  <img src="{{asset('backend/images/dashboard/img_6.jpg" alt="">
                 </div>
               </div>
               <div class="d-flex py-4">
                 <div class="preview-list w-100">
                   <div class="preview-item p-0">
                     <div class="preview-thumbnail">
-                      <img src="backend/images/faces/face12.jpg" class="rounded-circle" alt="">
+                      <img src="{{asset('backend/images/faces/face12.jpg" class="rounded-circle" alt="">
                     </div>
                     <div class="preview-item-content d-flex flex-grow">
                       <div class="flex-grow">
@@ -641,42 +641,5 @@
       </div>
     </div>
     <!-- content-wrapper ends -->  
-{{-- footer starts --}}
-<footer class="footer">
-  <div class="d-sm-flex justify-content-center justify-content-sm-between">
-    <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2021</span>
-  </div>
-</footer>
-<!-- partial -->
-</div>
 
-<!-- main-panel ends -->
-</div>
-<!-- page-body-wrapper ends -->
-</div> 
-<!-- container-scroller -->
-<!-- plugins:js -->
-<script src="backend/vendors/js/vendor.bundle.base.js"></script>
-<!-- endinject -->
-<!-- Plugin js for this page -->
-<script src="backend/vendors/chart.js/Chart.min.js"></script>
-<script src="backend/vendors/progressbar.js/progressbar.min.js"></script>
-<script src="backend/vendors/jvectormap/jquery-jvectormap.min.js"></script>
-<script src="backend/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<script src="backend/vendors/owl-carousel-2/owl.carousel.min.js"></script>
-<script src="backend/js/jquery.cookie.js" type="text/javascript"></script>
-<!-- End plugin js for this page -->
-<!-- inject:js -->
-<script src="backend/js/off-canvas.js"></script>
-<script src="backend/js/hoverable-collapse.js"></script>
-<script src="backend/js/misc.js"></script>
-<script src="backend/js/settings.js"></script>
-<script src="backend/js/todolist.js"></script>
-<!-- endinject -->
-<!-- Custom js for this page -->
-<script src="backend/js/dashboard.js"></script>
-<!-- End custom js for this page -->
-       
 @endsection
-</body>
-</html>   

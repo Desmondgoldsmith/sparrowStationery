@@ -37,13 +37,13 @@
 
   function actionFormatter(value, row, index) {
     return [
-      '<a class="like" href="javascript:void(0)" title="Like">',
+      '<a class="like" href="{{asset('javascript:void(0)" title="Like">',
       '<i class="glyphicon glyphicon-heart"></i>',
       '</a>',
-      '<a class="edit ml10" href="javascript:void(0)" title="Edit">',
+      '<a class="edit ml10" href="{{asset('javascript:void(0)" title="Edit">',
       '<i class="glyphicon glyphicon-edit"></i>',
       '</a>',
-      '<a class="remove ml10" href="javascript:void(0)" title="Remove">',
+      '<a class="remove ml10" href="{{asset('javascript:void(0)" title="Remove">',
       '<i class="glyphicon glyphicon-remove"></i>',
       '</a>'
     ].join('');

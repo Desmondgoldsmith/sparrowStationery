@@ -6,18 +6,18 @@
   <path d="M0 0h640v144H0z"/>
   <path fill="#060" d="M0 336h640v144H0z"/>
   <g id="b" transform="matrix(3 0 0 3 320 240)">
-    <use width="100%" height="100%" stroke="#000" xlink:href="#a"/>
-    <use width="100%" height="100%" fill="#fff" xlink:href="#a"/>
+    <use width="100%" height="100%" stroke="#000" xlink:href="{{asset('#a"/>
+    <use width="100%" height="100%" fill="#fff" xlink:href="{{asset('#a"/>
   </g>
-  <use width="100%" height="100%" transform="matrix(-1 0 0 1 640 0)" xlink:href="#b"/>
+  <use width="100%" height="100%" transform="matrix(-1 0 0 1 640 0)" xlink:href="{{asset('#b"/>
   <path fill="#b00" d="M640.5 168H377c-9-24-39-72-57-72s-48 48-57 72H-.2v144H263c9 24 39 72 57 72s48-48 57-72h263.5V168z"/>
   <path id="c" d="M377 312c9-24 15-48 15-72s-6-48-15-72c-9 24-15 48-15 72s6 48 15 72"/>
-  <use width="100%" height="100%" transform="matrix(-1 0 0 1 640 0)" xlink:href="#c"/>
+  <use width="100%" height="100%" transform="matrix(-1 0 0 1 640 0)" xlink:href="{{asset('#c"/>
   <g fill="#fff" transform="matrix(3 0 0 3 320 240)">
     <ellipse rx="4" ry="6"/>
     <path id="d" d="M1 5.8s4 8 4 21-4 21-4 21z"/>
-    <use width="100%" height="100%" transform="scale(-1)" xlink:href="#d"/>
-    <use width="100%" height="100%" transform="scale(-1 1)" xlink:href="#d"/>
-    <use width="100%" height="100%" transform="scale(1 -1)" xlink:href="#d"/>
+    <use width="100%" height="100%" transform="scale(-1)" xlink:href="{{asset('#d"/>
+    <use width="100%" height="100%" transform="scale(-1 1)" xlink:href="{{asset('#d"/>
+    <use width="100%" height="100%" transform="scale(1 -1)" xlink:href="{{asset('#d"/>
   </g>
 </svg>

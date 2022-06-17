@@ -13,7 +13,7 @@
     <div class="card mb-3">
       <div class="card-body">
         <div class="pt-4 pb-2">
-          <h5 class="card-title text-center pb-0 fs-4">Add Category</h5>
+          <h5 class="card-title text-center pb-0 fs-4">Update Category</h5>
         </div>
           {{-- displaying success message --}}
           @if(Session::has('status'))
@@ -29,17 +29,18 @@
                 @endforeach
               </div>
               @endif
-            <form action="{{url('categoryAdd')}}" method="POST">
+            <form action="{{url('categoryUpdate')}}" method="POST">
                 @csrf
                 <div class="col-12">
                 <div class="form-group ">
+                  {{Form::hidden('id',$category->id)}}
                   <label for="category" class="form-label">Category Name</label>
-                  <input class="form-control" type="text" style="color:whitesmoke" name="categoryName"  placeholder="Input category name">
+                  <input class="form-control" value="{{$category->categoryName}}" type="text" style="color:whitesmoke" name="categoryName"  placeholder="Input category name">
                 </div>
                 </div>
                 <div class="col-12">
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-md">Save</button>
+                    <button type="submit" class="btn btn-primary btn-md">update</button>
                 </div>
                 </div>
               </form>

@@ -4,11 +4,11 @@
       <stop offset=".2" stop-color="#f9f0aa"/>
       <stop offset="1" stop-color="#b07e09"/>
     </radialGradient>
-    <radialGradient id="d" cx="447.4" cy="308.3" r="16.5" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
-    <radialGradient id="e" cx="451.6" cy="313" r="10.9" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
-    <radialGradient id="f" cx="454.1" cy="308.6" r="9.8" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
-    <radialGradient id="g" cx="458.4" cy="307.1" r="17.4" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
-    <radialGradient id="j" cx="446" cy="252.4" r="13" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+    <radialGradient id="d" cx="447.4" cy="308.3" r="16.5" gradientUnits="userSpaceOnUse" xlink:href="{{asset('#a"/>
+    <radialGradient id="e" cx="451.6" cy="313" r="10.9" gradientUnits="userSpaceOnUse" xlink:href="{{asset('#a"/>
+    <radialGradient id="f" cx="454.1" cy="308.6" r="9.8" gradientUnits="userSpaceOnUse" xlink:href="{{asset('#a"/>
+    <radialGradient id="g" cx="458.4" cy="307.1" r="17.4" gradientUnits="userSpaceOnUse" xlink:href="{{asset('#a"/>
+    <radialGradient id="j" cx="446" cy="252.4" r="13" gradientUnits="userSpaceOnUse" xlink:href="{{asset('#a"/>
     <radialGradient id="m" cx="477.9" cy="215.3" r=".3" gradientUnits="userSpaceOnUse">
       <stop offset=".3" stop-color="#a50a0a"/>
       <stop offset="1" stop-color="#4c0505"/>
@@ -130,7 +130,7 @@
       <path fill="#485654" stroke="none" d="M441 322.4l-1-.8a11.6 11.6 0 01-.8-.8 11.4 11.4 0 011.8 1.6z"/>
       <path d="M502.2 259l3.5 3.5.6-.6-3.5-3.4-.6.6z"/>
     </g>
-    <use width="100%" height="100%" transform="rotate(-177.2 487 -.2)" xlink:href="#b"/>
+    <use width="100%" height="100%" transform="rotate(-177.2 487 -.2)" xlink:href="{{asset('#b"/>
     <g stroke="#24420e" stroke-width=".2">
       <path fill="#67923d" d="M434 365.4a55.9 55.9 0 00-29.3.9c16.3 8 29.5 4.6 29.2-1zm89 3.3a55 55 0 0129.2 1c-16.3 7.9-29.6 4.5-29.3-1z"/>
       <path fill="#406325" d="M433.8 365.5c.3 5.5-12.8 8.9-29.1.9 15.3 1 27.8.4 29-1zm89.3 3.3c-.3 5.5 12.8 8.9 29 .9-15.2 1-27.7.4-29-1z"/>
@@ -150,7 +150,7 @@
       <path fill="#fab81c" d="M511.3 363.6c.6-1.8 2-3.4 3.5-3.8m-3.3 4c1.3.3 3.3-1.2 3.8-2.5m-2.6 4c1.6.4 3.3-1.2 4-2.4m-2.5 4c2 0 3.1-1.3 3.7-2.4m-2.2 4c1.6 0 3.2-1.4 3.6-2.5m-2.2 3.8a4 4 0 003.7-2m-2 3.4c1.6.1 3-.9 3.4-1.8m-1.6 3.3c1.6 0 2.7-1 3.1-2"/>
       <path fill="#6c301e" d="M511.3 363.6a7.1 7.1 0 011.3-2.3l1-1 1.2-.5a4 4 0 00-1.2.6l-1 1a9.3 9.3 0 00-1.3 2.2zm.2.3c.4 0 .8 0 1.2-.2a4.9 4.9 0 001-.6l1-.8.6-1a2 2 0 01-.6 1 5 5 0 01-1 .9 4.6 4.6 0 01-1 .5 2.1 2.1 0 01-1.2.2zm1.2 1.4h1.2l1-.6a6.2 6.2 0 001.7-1.8 4.7 4.7 0 01-.7 1 5.2 5.2 0 01-.9.9 3.7 3.7 0 01-1 .5h-1.3zm1.5 1.6a4.2 4.2 0 001.1-.2 3.8 3.8 0 001-.5 4.7 4.7 0 001-.8l.6-1a4.5 4.5 0 01-1.5 1.9 3.4 3.4 0 01-2.2.6zm1.5 1.5a4.1 4.1 0 002.1-.8 5.1 5.1 0 001.5-1.6c-.1.3-.3.7-.6 1l-.8.7a4.2 4.2 0 01-1 .5c-.4.2-.8.2-1.2.2zm1.5 1.4a7 7 0 001-.2 4.6 4.6 0 001-.4 3.6 3.6 0 001.6-1.5l-.6 1c-.3.2-.6.5-1 .6a4.5 4.5 0 01-2 .5zm1.6 1.4h1a4 4 0 001-.5l.8-.5c.3-.3.5-.5.6-.8a2.5 2.5 0 01-.5.8 3.6 3.6 0 01-.9.6 3.7 3.7 0 01-2 .4zm1.8 1.5a4 4 0 001-.1 3.3 3.3 0 001.6-1 4 4 0 00.5-.8 3 3 0 01-1.2 1.5 3 3 0 01-1 .3 3 3 0 01-1 0z"/>
     </g>
-    <use width="100%" height="100%" transform="rotate(-176.6 490 -.4)" xlink:href="#c"/>
+    <use width="100%" height="100%" transform="rotate(-176.6 490 -.4)" xlink:href="{{asset('#c"/>
     <g stroke="#24420e" stroke-width=".2">
       <path fill="#406325" d="M409.2 240a52.4 52.4 0 0019.5-17.9c-15.6 4.2-22.7 14.4-19.5 18zm145.8 4.7a50 50 0 00-15.6-19.9c2.8 15.2 12 22.8 15.6 20z"/>
       <path fill="#67923d" d="M409.2 240c-3.3-3.5 3.8-13.6 19.4-17.8-11 8.4-19.2 16.2-19.4 17.8zm145.8 4.7c-3.7 3-12.7-4.6-15.5-19.7 7.2 11 14 19.5 15.5 19.7z"/>
