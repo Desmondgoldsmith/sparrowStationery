@@ -2,7 +2,7 @@
    <div class="container-fluid">
     <div class="row border-top px-xl-5">
         <div class="col-lg-3 d-none d-lg-block">
-            <a class="btn shadow-none d-flex align-items-center justify-content-between   w-100" data-toggle="collapse" href="{{asset('#navbar-vertical" style="height: 65px; margin-top: -1px; padding: 0 30px;background-color:#00A4B4">
+            <a class="btn shadow-none d-flex align-items-center justify-content-between   w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; margin-top: -1px; padding: 0 30px;background-color:#00A4B4">
                 <h6 class="m-0 text-light">Categories</h6>
                 <i class="fa fa-angle-down text-dark"></i>
             </a>
@@ -10,12 +10,12 @@
                 <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
 
                     <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
-                        <a href="{{asset('" class="nav-item nav-link">Paper and Printing Products</a>
-                        <a href="{{asset('" class="nav-item nav-link">Office Furniture and Decor Products</a>
-                        <a href="{{asset('" class="nav-item nav-link">Office Equipment Products</a>
-                        <a href="{{asset('" class="nav-item nav-link">Cleaning and Janitorial Products</a>
-                        <a href="{{asset('" class="nav-item nav-link">Desktop and Desk Drawer Products</a>
-                        <a href="{{asset('" class="nav-item nav-link">Office Kitchen Products</a>
+                        <a href="" class="nav-item nav-link">Paper and Printing Products</a>
+                        <a href="" class="nav-item nav-link">Office Furniture and Decor Products</a>
+                        <a href="" class="nav-item nav-link">Office Equipment Products</a>
+                        <a href="" class="nav-item nav-link">Cleaning and Janitorial Products</a>
+                        <a href="" class="nav-item nav-link">Desktop and Desk Drawer Products</a>
+                        <a href="" class="nav-item nav-link">Office Kitchen Products</a>
 
                     </div>
                 </div>
@@ -23,7 +23,7 @@
         </div>
         <div class="col-lg-9">
             <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                <a href="{{asset('" class="text-decoration-none d-block d-lg-none">
+                <a href="" class="text-decoration-none d-block d-lg-none">
                     <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>Shopper</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -31,21 +31,21 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="{{asset('{{URL('/')}}" class="nav-item nav-link">Home</a>
-                        <a href="{{asset('{{URL('/shop')}}" class="nav-item nav-link {{Request::is('shop') ? 'active': ''}}">Shop</a>
-                        <a href="{{asset('{{URL('/details')}}" class="nav-item nav-link {{Request::is('details')?'active':''}}">Shop Detail</a>
+                        <a href="{{URL('/')}}" class="nav-item nav-link">Home</a>
+                        <a href="{{URL('/shop')}}" class="nav-item nav-link {{Request::is('shop') ? 'active': ''}}">Shop</a>
+                        <a href="{{URL('/details')}}" class="nav-item nav-link {{Request::is('details')?'active':''}}">Shop Detail</a>
                         <div class="nav-item dropdown">
-                            <a href="{{asset('#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="{{asset('cart.html" class="dropdown-item">Shopping Cart</a>
-                                <a href="{{asset('checkout.html" class="dropdown-item">Checkout</a>
+                                <a href="cart.html" class="dropdown-item">Shopping Cart</a>
+                                <a href="checkout.html" class="dropdown-item">Checkout</a>
                             </div>
                         </div>
-                        <a href="{{asset('contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="{{asset('" class="nav-item nav-link">Login</a>
-                        <a href="{{asset('" class="nav-item nav-link">Register</a>
+                        <a href="" class="nav-item nav-link">Login</a>
+                        <a href="" class="nav-item nav-link">Register</a>
                     </div>
                 </div>
             </nav>
