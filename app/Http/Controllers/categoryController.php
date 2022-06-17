@@ -34,7 +34,7 @@ public function create()
 
 public function displayCategories()
 {
-    $categories = Category::all();
+    $categories = Category::paginate(5);
     return view('admin.viewCategory')->with('categories',$categories);
 }
 // display update category page

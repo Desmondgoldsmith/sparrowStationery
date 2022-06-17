@@ -44,4 +44,7 @@ Route::get('/admin',[AdminController::class,'dashboard']);
 
 Route::get('/view-addProduct',[productController::class,'create']);//display the addProduct page
 Route::post('/add_product',[productController::class,'store']);
-Route::get('/view-products',[productController::class,'index']);//display the all products page
+Route::get('/view-products',[productController::class,'index']);//display all products page
+Route::get('/view-updateProduct/{id}',[productController::class,'edit']);//display update products page
+Route::get('/delete-Product/{id}',[productController::class,'destroy']);//delete  products 
+Route::post('/update-product',[productController::class,'update']);//backend for update products page

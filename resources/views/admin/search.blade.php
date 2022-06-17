@@ -1,5 +1,5 @@
 @section('title')
-    View Products
+    Search Results
 @endsection
 @extends('admin_layout.content')
 @section('content')
@@ -14,7 +14,7 @@
               </div>
             @endif  
             <div class="card-body">
-              <h4 class="card-title">View Products</h4>
+              <h4 class="card-title">Search Results</h4>
               <div class="table-responsive">
                 <table class="table">
                   <thead>
@@ -39,8 +39,8 @@
                       <td> GH¢ {{$product->productPrice}} </td>
                       <td> {{$product->productCategory}} </td>
                       <td>
-                       <a href="{{url('view-updateProduct/'.$product->id)}} {{Request::is('view-updateProduct/' ? 'active':'')}}"><div class="badge badge-outline-success">Update</div></a>
-                       <a href="{{url('delete-Product/'.$product->id)}}" onclick="return confirm('Are You Sure You Want Delete?')"><div class="badge badge-outline-danger">Delete</div></a>
+                       <a href="{{url('')}}"> <div class="badge badge-outline-success">Update</div></a>
+                       <a href="{{url('')}}" onclick="return confirm('Are You Sure You Want Delete?')"><div class="badge badge-outline-danger">Delete</div></a>
                     </td>
                     </tr>
                     @endforeach
@@ -50,17 +50,20 @@
                     
                   </tfoot>
                 </table>
-
-                
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center">
-    {!!$products->links()!!}
+      
 </div>
-</div>
-
+<table>
+    <td colspan="3" style="align:left">
+    {{ $products->links() }}
+    Total:{{$products->total()}}
+Current page:{{$products->count()}}
+    </td>
+</table>
+{{-- {{$products->links()}} --}}
 
 @endsection

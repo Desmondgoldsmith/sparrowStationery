@@ -45,6 +45,8 @@
           </div>
         </div>
       </div>
-      
+      <div class="text-center">
+        {!!$categories->links()!!}
+      </div>
 </div>
 @endsection
