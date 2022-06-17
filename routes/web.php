@@ -5,6 +5,7 @@ use App\Http\Controllers\categoryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\clientController;
 use App\Http\Controllers\productController;
+use App\Http\Controllers\sliderController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -40,6 +41,8 @@ Route::get('/delete-category/{id}',[categoryController::class,'deleteCategory'])
 Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('home');
 Route::get('/shop',[clientController::class,'shop' ]);
 Route::get('/details',[clientController::class,'details' ]);
+
+
 Route::get('/admin',[AdminController::class,'dashboard']);
 
 Route::get('/view-addProduct',[productController::class,'create']);//display the addProduct page
@@ -48,3 +51,5 @@ Route::get('/view-products',[productController::class,'index']);//display all pr
 Route::get('/view-updateProduct/{id}',[productController::class,'edit']);//display update products page
 Route::get('/delete-Product/{id}',[productController::class,'destroy']);//delete  products 
 Route::post('/update-product',[productController::class,'update']);//backend for update products page
+
+Route::get('/view-sliderForm',[sliderController::class,'create']);
