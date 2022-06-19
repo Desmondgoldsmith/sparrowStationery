@@ -1,7 +1,7 @@
 @section('title')
-    View Category
+    View Slider
 @endsection
-@extends('admin_layout.content')
+@extends('admin_layout.content');
 @section('content')
 <div class="main-panel">
     <div class="row ">
@@ -14,26 +14,28 @@
               </div>
             @endif  
             <div class="card-body">
-              <h4 class="card-title">View Categories</h4>
+              <h4 class="card-title">View Sliders</h4>
               <div class="table-responsive">
                 <table class="table">
                   <thead>
                     <tr>
                     
-                      <th> Category ID </th>
-                      <th> Category Name </th>
+                      <th> Slider ID </th>
+                      <th> Slider Name </th>
+                      <th> Slider Image </th>
                       <th> Action </th>
                     
                     </tr>
                   </thead>
                   <tbody>
-                    @foreach($categories as $category)
+                    @foreach($sliders as $slider)
                     <tr>
-                      <td> {{$category->id}}</td>
-                      <td> {{$category->categoryName}} </td>
+                      <td> {{$slider->id}}</td>
+                      <td> {{$slider->sliderText}} </td>
+                      <td><img src="storage/sliderImages/{{$slider->sliderImage}}" style="height:60px;width:60px" class="img-circle elevation-2" alt="{{$slider->sliderName}}"></td>
                       <td>
-                       <a href="{{url('updateCategory-view/'.$category->id)}}"> <div class="badge badge-outline-success">Update</div></a>
-                       <a href="{{url('delete-category/'.$category->id)}}" onclick="return confirm('Are You Sure You Want Delete?')"><div class="badge badge-outline-danger">Delete</div></a>
+                       <a href="{{url('view-updateSlider/'.$slider->id)}}"> <div class="badge badge-outline-success">Update</div></a>
+                       <a href="{{url('delete-slider/'.$slider->id)}}" onclick="return confirm('Are You Sure You Want Delete?')"><div class="badge badge-outline-danger">Delete</div></a>
                     </td>
                     </tr>
                     @endforeach
@@ -45,6 +47,8 @@
           </div>
         </div>
       </div>
-      
+      <div class="text-center">
+        {!!$sliders->links()!!}
+      </div>
 </div>
 @endsection

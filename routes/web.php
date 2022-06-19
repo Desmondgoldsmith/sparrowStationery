@@ -52,4 +52,9 @@ Route::get('/view-updateProduct/{id}',[productController::class,'edit']);//displ
 Route::get('/delete-Product/{id}',[productController::class,'destroy']);//delete  products 
 Route::post('/update-product',[productController::class,'update']);//backend for update products page
 
-Route::get('/view-sliderForm',[sliderController::class,'create']);
+Route::get('/view-sliderForm',[sliderController::class,'create']);//view slider form
+Route::post('/add-slider',[sliderController::class,'store']);//backend for slider form{save}
+Route::get('/view-allSlider',[sliderController::class,'index']);//backend for slider form{save}
+Route::get('/view-updateSlider/{id}',[sliderController::class,'edit']);//view for slider form{update}
+Route::post('/view-updateSlider',[sliderController::class,'update']);//backend for slider form{update}
+Route::get('/delete-slider/{id}',[sliderController::class,'destroy']);//delete  slider 

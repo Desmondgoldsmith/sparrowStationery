@@ -20,7 +20,7 @@ class productController extends Controller
 
     public function index()
     {
-        $products = Products::orderby('id','asc')->paginate(5);
+        $products = Products::paginate(5);
         return view('admin.viewProduct')->with('products',$products);
 
     }

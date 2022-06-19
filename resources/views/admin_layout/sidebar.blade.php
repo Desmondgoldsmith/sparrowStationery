@@ -94,7 +94,7 @@
           <div class="collapse" id="slider">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item"> <a class="nav-link" href="{{url('view-sliderForm')}}  {{Request::is('view-sliderForm') ? 'active' : ''}} ">Add Slider</a></li>
-              <li class="nav-item"> <a class="nav-link" href="{{url('#')}}  {{Request::is('#' ? 'active' : '')}}">View Slider</a></li>
+              <li class="nav-item"> <a class="nav-link" href="{{url('view-allSlider')}}  {{Request::is('view-allSlider' ? 'active' : '')}}">View Slider</a></li>
             </ul>
           </div>
         </li>

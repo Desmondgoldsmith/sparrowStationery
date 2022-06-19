@@ -29,7 +29,7 @@
 
           {{-- form starts --}}
           {{-- {!!Form::open(['url'=>'add_product','method'=>'POST','enctype'=>'multipart/form-data' ])!!} --}}
-           <form action="{{url('')}}" method="POST" enctype = "multipart/form-data">
+           <form action="{{url('add-slider')}}" method="POST" enctype = "multipart/form-data">
            {{csrf_field()}}
           <div class="col-12">
             <div class="form-group">
