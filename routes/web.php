@@ -41,6 +41,10 @@ Route::get('/delete-category/{id}',[categoryController::class,'deleteCategory'])
 Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('home');
 Route::get('/shop',[clientController::class,'shop' ]);
 Route::get('/details/{id}',[clientController::class,'details' ]);
+Route::get('/paper-product',[clientController::class,'paperProducts']);//backend to  view all paper products 
+Route::get('/office-product',[clientController::class,'officeFurniture']);//backend to  view all office products 
+Route::get('/office-equipments',[clientController::class,'officeEquipments']);//backend to  view all office products 
+
 
 
 Route::get('/admin',[AdminController::class,'dashboard']);

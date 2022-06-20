@@ -43,7 +43,7 @@
             <div class="col-lg-4 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;height: 300px">
                     <p class="text-right">{{$countPrintingProducts}} Items Available</p>
-                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                    <a href="{{url('/paper-product')}}" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="{{asset('storage/productImages/paperandprinting.PNG')}}"  alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Paper & Printing Products</h5>
@@ -52,7 +52,7 @@
             <div class="col-lg-4 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;height: 300px">
                     <p class="text-right">{{$countOfficeFurniture}} Items Available</p>
-                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                    <a href="{{url('office-product')}}" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="{{asset('storage/productImages/officefurniture.PNG')}}"  alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Office Funiture And Decor Products</h5>
@@ -61,7 +61,7 @@
             <div class="col-lg-4 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;height: 300px">
                     <p class="text-right">{{$countOfficeEquipments}} Items Available</p>
-                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                    <a href="{{url('office-equipments')}}" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="{{asset('storage/productImages/officeequipment.PNG')}}"  alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Office Equipment Products</h5>
