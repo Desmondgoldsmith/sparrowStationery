@@ -32,7 +32,7 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.html" class="nav-item nav-link active" style="color:#00A4B4">Home</a>
                             <a href="{{URL('/shop')}}" class="nav-item nav-link" >Shop</a>
-                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+                            {{-- <a href="{{url('/details')}}" class="nav-item nav-link">Shop Detail</a> --}}
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -51,21 +51,31 @@
                 <div id="header-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" style="height: 410px;">
-                            <img class="img-fluid" src="{{asset('frontend/img/carousel-1.jpg')}}" alt="Image">
+                            <img class="img-fluid" src="{{asset('storage/sliderImages/1.jpg')}}" alt="Image">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Fashionable Dress</h3>
+                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Sparrow Stationery</h3>
                                     <a href="" class="btn btn-light py-2 px-3">Shop Now</a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item" style="height: 410px;">
-                            <img class="img-fluid" src="{{asset('frontend/img/carousel-2.jpg')}}" alt="Image">
+                            <img class="img-fluid" src="{{asset('storage/sliderImages/2.jpg')}}" alt="Image">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
+                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Sparrow Stationery</h3>
+                                    <a href="" class="btn btn-light py-2 px-3">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 410px;">
+                            <img class="img-fluid" src="{{asset('storage/sliderImages/4.jpg')}}" alt="Image">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-3" style="max-width: 700px;">
+                                    <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
+                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Sparrow Stationery</h3>
                                     <a href="" class="btn btn-light py-2 px-3">Shop Now</a>
                                 </div>
                             </div>

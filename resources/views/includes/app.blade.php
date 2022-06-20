@@ -41,10 +41,19 @@
                 <img src="{{asset('/frontend/img/spa.PNG')}}" style="width:240px" alt="">
 
             </a>
-            <p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
-            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
+            <b><p>Product Areas:</p></b>
+                <b><ul style="color:#00A4B4">
+                    <li >paper & printing supplies</li>
+                    <li>Desktop & Desk Drawer supplies</li>
+                    <li>Office Equipment supplies</li>
+                    <li>Office furniture and Decor Supplies</li>
+                    <li>Office kitchen supplies</li>
+                    <li>Cleaning & Janitorial Items supplies</li>
+                </ul></b>
+                
+            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Spintex Road, Accra</p>
             <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i> 024 590 3919</p>
         </div>
         <div class="col-lg-8 col-md-12">
             <div class="row">
@@ -91,13 +100,8 @@
     <div class="row border-top border-light mx-xl-5 py-4">
         <div class="col-md-6 px-xl-0">
             <p class="mb-md-0 text-center text-md-left text-dark">
-                &copy; <a class="text-dark font-weight-semi-bold" href="#">Sparrow Stationery & More</a>. All Rights Reserved. Designed
-                by
-                <a class="text-dark font-weight-semi-bold" href="https://htmlcodex.com">HTML Codex</a>
+                &copy; <a class="text-dark font-weight-semi-bold" href="{{url('/')}}">Sparrow Stationery & More</a>. All Rights Reserved.
             </p>
-        </div>
-        <div class="col-md-6 px-xl-0 text-center text-md-right">
-            <img class="img-fluid" src="{{asset('img/payments.png')}}" alt="">
         </div>
     </div>
 </div>

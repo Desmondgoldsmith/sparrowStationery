@@ -1,14 +1,14 @@
 <body>
 <!-- Topbar Start -->
  <div class="container-fluid">
-    <div class="row bg-secondary py-2 px-xl-5">
+    <div class="row bg-secondary py-2 px-xl-5" style="background-color:#00A4B4">
         <div class="col-lg-6 d-none d-lg-block">
             <div class="d-inline-flex align-items-center">
-                <a class="text-dark" href="">FAQs</a>
-                <span class="text-muted px-2">|</span>
-                <a class="text-dark" href="">Help</a>
-                <span class="text-muted px-2">|</span>
-                <a class="text-dark" href="">Support</a>
+                <a class="text-dark" href=""></a>
+                <span class="text-muted px-2"></span>
+                <a class="text-dark" href=""></a>
+                <span class="text-muted px-2"></span>
+                <a class="text-dark" href=""></a>
             </div>
         </div>
         <div class="col-lg-6 text-center text-lg-right">
@@ -25,20 +25,14 @@
                 <a class="text-dark px-2" href="">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a class="text-dark pl-2" href="">
-                    <i class="fab fa-youtube"></i>
-                </a>
+                
             </div>
         </div>
     </div>
     <div class="row align-items-center py-3 px-xl-5">
-        {{-- <div class="col-lg-3 d-none d-lg-block"> --}}
-            {{-- <a href="" class="text-decoration-none">
-                <h4 class="m-0 display-5 font-weight-semi-bold" >Sparrow Stationery & More</h4>
-            </a> --}}
+        
             <img src="{{asset('/frontend/img/spa.PNG')}}" style="width:240px" alt="">
 
-        {{-- </div> --}}
         <div class="col-lg-6 col-6 text-left">
             <form action="">
                 <div class="input-group">

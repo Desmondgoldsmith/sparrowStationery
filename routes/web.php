@@ -40,7 +40,7 @@ Route::get('/delete-category/{id}',[categoryController::class,'deleteCategory'])
 
 Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('home');
 Route::get('/shop',[clientController::class,'shop' ]);
-Route::get('/details',[clientController::class,'details' ]);
+Route::get('/details/{id}',[clientController::class,'details' ]);
 
 
 Route::get('/admin',[AdminController::class,'dashboard']);

@@ -19,7 +19,7 @@
                 <table class="table">
                   <thead>
                     <tr>
-                    
+
                       <th> Product ID </th>
                       <th> Product Image </th>
                       <th> Product Name </th>
