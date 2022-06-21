@@ -132,6 +132,7 @@ class productController extends Controller
             'productName' => 'required',
             'productPrice' => 'required',
             'productCategory' => 'required',
+            'productDescription' => 'required',
             'productImage' => 'image|nullable|max:1999',
         ]);
 
@@ -139,6 +140,7 @@ class productController extends Controller
         $products->productName = $request->input('productName');
         $products->productPrice = $request->input('productPrice');
         $products->productCategory = $request->input('productCategory');
+        $products->productDescription = $request->input('productDescription');
         
         if($request->hasFile('productImage')){
             $fileNameWithExt = $request->file('productImage')->getClientOriginalName();

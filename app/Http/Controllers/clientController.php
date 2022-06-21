@@ -12,13 +12,13 @@ class clientController extends Controller
      $countPrintingProducts = Products::where('productCategory','=','Paper and Printing Products')->count();
      $countOfficeFurniture = Products::where('productCategory','=','Office Funiture And Decor Products')->count();
      $countOfficeEquipments = Products::where('productCategory','=','Office Equipment Products')->count();
-     $countCleaningProducts = Products::where('productCategory','=','Cleaning and Janitorial Products')->count();
+     $allProducts = Products::count();
      $countDesktopProducts = Products::where('productCategory','=','Desktop and Deskdrawer Products')->count();
      $countKitchenProducts = Products::where('productCategory','=','Office and Kitchen Products')->count();
        return view('clients.index')->with('products',$products)->with('countPrintingProducts',$countPrintingProducts
                                   )->with('countOfficeFurniture',$countOfficeFurniture
                                   )->with('countOfficeEquipments',$countOfficeEquipments
-                                  )->with('countCleaningProducts',$countCleaningProducts
+                                  )->with('allProducts',$allProducts
                                   )->with('countDesktopProducts',$countDesktopProducts
                                   )->with('countKitchenProducts',$countKitchenProducts);
    }
@@ -55,6 +55,27 @@ class clientController extends Controller
 
     $officeEquipments = Products::where('productCategory','=','Office Equipment Products')->paginate(20);
     return view('clients.officeEquipments')->with('officeEquipments',$officeEquipments);
+  }
+  // display all Desktop & Deskdrawer Products
+  public function drawerProducts()
+  {
+
+    $drawerProducts = Products::where('productCategory','=','Desktop and Deskdrawer Products')->paginate(20);
+    return view('clients.drawerProduct')->with('drawerProducts',$drawerProducts);
+  }
+  // display all kitchen Products
+  public function kitchenProducts()
+  {
+
+    $kitchenProducts = Products::where('productCategory','=','Office and Kitchen Products')->paginate(20);
+    return view('clients.kitchenProducts')->with('kitchenProducts',$kitchenProducts);
+  }
+  // display all Products
+  public function allProducts()
+  {
+
+    $allProducts = Products::paginate(24);
+    return view('clients.allProducts')->with('allProducts',$allProducts);
   }
 
 }

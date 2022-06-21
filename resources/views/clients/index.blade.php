@@ -8,25 +8,25 @@
 @include('includes.navbar')
     <div class="container-fluid pt-5">
         <div class="row px-xl-5 pb-3">
-            <div class="col-lg-6 col-md-6 col-sm-12 pb-1">
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
                     <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
                     <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
                 </div>
             </div>
-            {{-- <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
                     <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+                    <h5 class="font-weight-semi-bold m-0">Free Delivery</h5>
                 </div>
-            </div> --}}
+            </div>
             {{-- <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
                     <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
                     <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
                 </div>
             </div> --}}
-            <div class="col-lg-6 col-md-6 col-sm-12 pb-1">
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
                     <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
                     <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
@@ -67,19 +67,11 @@
                     <h5 class="font-weight-semi-bold m-0">Office Equipment Products</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;height: 300px">
-                    <p class="text-right">{{$countCleaningProducts}} Items Available</p>
-                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="{{asset('storage/productImages/cleaning.PNG')}}"  alt="">
-                    </a>
-                    <h5 class="font-weight-semi-bold m-0">Cleaning & Janitorial Products</h5>
-                </div>
-            </div>
+            
             <div class="col-lg-4 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;height: 300px">
                     <p class="text-right">{{$countDesktopProducts}} Items Available</p>
-                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                    <a href="{{url('drawer-products')}}" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="{{asset('storage/productImages/desktop.PNG')}}"  alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Desktop & Deskdrawer Products</h5>
@@ -88,12 +80,23 @@
             <div class="col-lg-4 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;height: 300px">
                     <p class="text-right">{{$countKitchenProducts}} Items Available</p>
-                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                    <a href="{{url('kitchen-products')}}" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="{{asset('storage/productImages/kitchen.PNG')}}"  alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Office & Kitchen Products</h5>
                 </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;height: 300px">
+                    <p class="text-right">{{$allProducts}} Items Available</p>
+                    <a href="{{url('all-products')}}" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="{{asset('storage/productImages/cleaning.PNG')}}"  alt="">
+                    </a>
+                    <h5 class="font-weight-semi-bold m-0">All Products</h5>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- Categories End -->

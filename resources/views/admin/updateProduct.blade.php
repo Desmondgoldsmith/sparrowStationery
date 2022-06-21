@@ -47,6 +47,12 @@
               </div>
               <div class="col-12">
                 <div class="form-group">
+                  {{Form::label('', 'Product Description', ['for'=>'productDescription','class'=>'form-lable'])}} 
+                  {{Form::textarea('productDescription', $products->productDescription, ['class'=>'form-control','name'=>'productDescription','style'=>'color:white']) }}
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
                {{Form::label('', 'Product Category', ['for'=>'productCategory','class'=>'form-lable'])}} 
                 <select class="form-control" name="productCategory" style="color:white" id="productCategory">
                     <option selected="sel">{{$products->productCategory}}</option>

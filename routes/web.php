@@ -42,8 +42,11 @@ Route::get('/', [App\Http\Controllers\clientController::class, 'home'])->name('h
 Route::get('/shop',[clientController::class,'shop' ]);
 Route::get('/details/{id}',[clientController::class,'details' ]);
 Route::get('/paper-product',[clientController::class,'paperProducts']);//backend to  view all paper products 
-Route::get('/office-product',[clientController::class,'officeFurniture']);//backend to  view all office products 
+Route::get('/office-product',[clientController::class,'officeFurniture']);//backend to  view all paper products 
 Route::get('/office-equipments',[clientController::class,'officeEquipments']);//backend to  view all office products 
+Route::get('/drawer-products',[clientController::class,'drawerProducts']);//backend to  view all drawer products 
+Route::get('/kitchen-products',[clientController::class,'kitchenProducts']);//backend to  view all kitchen products 
+Route::get('/all-products',[clientController::class,'allProducts']);//backend to  view all  products 
 
 
 
