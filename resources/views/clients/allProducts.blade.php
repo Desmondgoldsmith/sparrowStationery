@@ -1,9 +1,9 @@
 @section('title')
 All Products
+@endsection
 @extends('includes.spairpages')
 @section('shop')
-@include('includes.topbar')
-@include('includes.spairNav')
+
 
 <!-- Page Header Start -->
 <div class="container-fluid bg-secondary mb-5">
@@ -44,3 +44,4 @@ All Products
 <div class="align-center">
         {!! $allProducts->links()!!}
      </div>
+@endsection

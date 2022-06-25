@@ -50,9 +50,9 @@
                 <i class="fas fa-heart" style="color:#00A4B4"></i>
                 <span class="badge">0</span>
             </a>
-            <a href="" class="btn border">
+            <a href="{{url('cart')}}" class="btn border">
                 <i class="fas fa-shopping-cart" style="color:#00A4B4"></i>
-                <span class="badge">0</span>
+                <span class="badge">{{Session::has('cart') ? Session::get('cart')->totalQuantity : 0}}</span>
             </a>
         </div>
     </div>

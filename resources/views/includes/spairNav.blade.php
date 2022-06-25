@@ -10,12 +10,12 @@
                 <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
 
                     <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
-                        <a href="" class="nav-item nav-link">Paper and Printing Products</a>
-                        <a href="" class="nav-item nav-link">Office Furniture and Decor Products</a>
-                        <a href="" class="nav-item nav-link">Office Equipment Products</a>
-                        <a href="" class="nav-item nav-link">Cleaning and Janitorial Products</a>
-                        <a href="" class="nav-item nav-link">Desktop and Desk Drawer Products</a>
-                        <a href="" class="nav-item nav-link">Office Kitchen Products</a>
+                        <a href="{{url('paper-product')}}" class="nav-item nav-link">Paper and Printing Products</a>
+                        <a href="{{url('office-product')}}" class="nav-item nav-link">Office Furniture and Decor Products</a>
+                        <a href="{{url('office-equipments')}}" class="nav-item nav-link">Office Equipment Products</a>
+                        <a href="{{url('drawer-products')}}" class="nav-item nav-link">Desktop and Desk Drawer Products</a>
+                        <a href="{{url('kitchen-products')}}" class="nav-item nav-link">Office Kitchen Products</a>
+                        <a href="{{url('all-products')}}" class="nav-item nav-link">All Products</a>
 
                     </div>
                 </div>
@@ -33,11 +33,10 @@
                     <div class="navbar-nav mr-auto py-0">
                         <a href="{{URL('/')}}" class="nav-item nav-link">Home</a>
                         <a href="{{URL('/shop')}}" class="nav-item nav-link {{Request::is('shop') ? 'active': ''}}">Shop</a>
-                        <a href="{{URL('/details')}}" class="nav-item nav-link {{Request::is('details')?'active':''}}">Shop Detail</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="cart.html" class="dropdown-item">Shopping Cart</a>
+                                <a href="{{url('cart')}}" class="dropdown-item">Shopping Cart</a>
                                 <a href="checkout.html" class="dropdown-item">Checkout</a>
                             </div>
                         </div>

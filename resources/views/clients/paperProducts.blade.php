@@ -2,10 +2,8 @@
 Paper & Printing Products
 @endsection
 @extends('includes.spairpages')
-@section('shop')
-@include('includes.topbar')
-@include('includes.spairNav')
 
+@section('shop')
 <!-- Page Header Start -->
 <div class="container-fluid bg-secondary mb-5">
     <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
@@ -34,7 +32,7 @@ Paper & Printing Products
             </div>
             <div class="card-footer d-flex justify-content-between bg-light border">
                 <a href="{{url('details/'.$paperProduct->id)}}" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                <a href="{{url('addCart/'.$paperProduct->id)}}" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
             </div>
         </div>
      
@@ -45,3 +43,4 @@ Paper & Printing Products
 <div class="align-center">
         {!! $paperProducts->links()!!}
      </div>
+@endsection

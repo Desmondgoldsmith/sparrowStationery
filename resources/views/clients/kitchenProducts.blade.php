@@ -1,9 +1,8 @@
 @section('title')
 Office & Kitchen Products@endsection
+@endsection
 @extends('includes.spairpages')
 @section('shop')
-@include('includes.topbar')
-@include('includes.spairNav')
 
 <!-- Page Header Start -->
 <div class="container-fluid bg-secondary mb-5">
@@ -33,7 +32,7 @@ Office & Kitchen Products@endsection
             </div>
             <div class="card-footer d-flex justify-content-between bg-light border">
                 <a href="{{url('details/'.$kitchenProduct->id)}}" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                <a href="{{url('addCart/'.$kitchenProduct->id)}}" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
             </div>
         </div>
      
@@ -44,3 +43,4 @@ Office & Kitchen Products@endsection
 <div class="align-center">
         {!! $kitchenProducts->links()!!}
      </div>
+@endsection

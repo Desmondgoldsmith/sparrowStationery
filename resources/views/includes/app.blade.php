@@ -28,7 +28,8 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
 </head>
-
+@include('includes.topbar')
+@include('includes.navbar')
 @yield('content')
 
 
@@ -41,15 +42,15 @@
                 <img src="{{asset('/frontend/img/spa.PNG')}}" style="width:240px" alt="">
 
             </a>
-            <b><p>Product Areas:</p></b>
-                <b><ul style="color:#00A4B4">
+            <p>Product Areas:</p>
+                <ul>
                     <li >paper & printing supplies</li>
                     <li>Desktop & Desk Drawer supplies</li>
                     <li>Office Equipment supplies</li>
                     <li>Office furniture and Decor Supplies</li>
                     <li>Office kitchen supplies</li>
                     <li>Cleaning & Janitorial Items supplies</li>
-                </ul></b>
+                </ul>
                 
             <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Spintex Road, Accra</p>
             <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>

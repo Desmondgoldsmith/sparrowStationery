@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\cartController;
 use App\Http\Controllers\categoryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\clientController;
@@ -47,6 +48,10 @@ Route::get('/office-equipments',[clientController::class,'officeEquipments']);//
 Route::get('/drawer-products',[clientController::class,'drawerProducts']);//backend to  view all drawer products 
 Route::get('/kitchen-products',[clientController::class,'kitchenProducts']);//backend to  view all kitchen products 
 Route::get('/all-products',[clientController::class,'allProducts']);//backend to  view all  products 
+Route::get('/addCart/{id}',[clientController::class,'addCart']);//backend to  cart page 
+Route::get('/cart',[clientController::class,'cart']);//backend to  cart page 
+Route::post('/update-cart/{id}',[clientController::class,'updateQuantity']);//update cart quantity
+Route::get('/delete-cart/{id}',[clientController::class,'deleteCart']);//delete cart product
 
 
 

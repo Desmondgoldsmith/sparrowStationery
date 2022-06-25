@@ -3,8 +3,7 @@ Office Funiture And Decor Products
 @endsection
 @extends('includes.spairpages')
 @section('shop')
-@include('includes.topbar')
-@include('includes.spairNav')
+
 
 <!-- Page Header Start -->
 <div class="container-fluid bg-secondary mb-5">
@@ -34,7 +33,7 @@ Office Funiture And Decor Products
             </div>
             <div class="card-footer d-flex justify-content-between bg-light border">
                 <a href="{{url('details/'.$officeFurniture->id)}}" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                <a href="{{url('addCart/'.$officeFurniture->id)}}" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
             </div>
         </div>
      
@@ -45,3 +44,4 @@ Office Funiture And Decor Products
 <div class="align-center">
         {!! $officeFurnitures->links()!!}
      </div>
+@endsection

@@ -3,8 +3,7 @@
 @endsection
 @extends('includes.spairpages')
 @section('shop')
-@include('includes.topbar')
-@include('includes.spairNav')
+
 
  <!-- Page Header Start -->
  <div class="container-fluid bg-secondary mb-5">
